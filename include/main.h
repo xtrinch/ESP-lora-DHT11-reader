@@ -7,4 +7,9 @@
 #include "sleep.h"
 #include "lora-sender.h"
 
+#include <DHT.h>
+#include <DHT_U.h>
+
+#define DHT11_PIN 16
+
 #endif
