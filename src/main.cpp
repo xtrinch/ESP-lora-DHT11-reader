@@ -71,7 +71,7 @@ void loop() {
 
   char buffer[400];
   snprintf(buffer, 400, "{" 
-    "\"url\":\"http://%s/api/measurements/multi\","
+    "\"url\":\"https://%s/api/measurements/multi\","
     "\"auth\":\"%s\","
     "\"data\":{"
       "\"measurements\":["
